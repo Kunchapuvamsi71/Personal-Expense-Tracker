@@ -1,0 +1,13 @@
+Task 3: Practical Implementation Project – Personal Expense Tracker
+
+For this task, I developed a command-line Personal Expense Tracker using Python. The purpose of the project is to help users record their everyday expenses and understand how their money is being spent. The application allows users to add an expense by entering a category, amount, and optional note. It automatically records the current date for each entry.
+
+The project provides a menu with options to add an expense, view expense history, display a spending summary, or exit the application. The history view displays saved records in a readable format. The summary feature calculates the total amount spent and groups expenses by category, helping users identify common spending areas.
+
+I used Python functions to separate the program into manageable parts, lists and dictionaries to organize expense records, loops to keep the menu running, and conditional statements to process the user's selection. Input validation checks that the category is not empty and that the expense amount is a valid positive number. Exception handling helps the application respond safely to invalid numeric input and file-access errors.
+
+The program uses Python's built-in csv module to store expenses in a CSV file. This means records can be loaded when the program starts and saved for future sessions without installing third-party libraries. The project demonstrates how a small real-world problem can be solved by combining core Python skills with file handling and structured data.
+
+Technologies used: Python 3, CSV file handling, and GitHub for source-code hosting and documentation.
+
+Project outcome: A functional expense-tracking application that records expenses, displays transaction history, calculates total spending, and summarizes expenses by category. Developing this project improved my problem-solving, program organization, input-validation, and file-handling skills.
